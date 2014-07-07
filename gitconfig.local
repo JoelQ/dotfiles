@@ -1,0 +1,8 @@
+[alias]
+  b = branch
+  ch = checkout
+  m = merge
+  s = status
+[user]
+  name = Joël Quenneville
+  email = joelq@thoughtbot.com

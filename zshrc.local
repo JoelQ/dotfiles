@@ -1,0 +1,8 @@
+# add rbenv and homebrew to PATH
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="./bin:$PATH"
+eval "$(rbenv init -)"
+
+envup() { export `cat .env` }

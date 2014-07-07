@@ -1,0 +1,7 @@
+" Easier escaping
+inoremap jj <Esc>
+
+" Use tslime to run rspec
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+let g:mustache_abbreviations = 1
+set scrolloff=5
