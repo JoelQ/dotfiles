@@ -5,3 +5,5 @@ inoremap jj <Esc>
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 let g:mustache_abbreviations = 1
 set scrolloff=5
+
+command TIL tabe~/Documents/TIL.md
