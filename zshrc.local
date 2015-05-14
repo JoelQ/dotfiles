@@ -2,8 +2,10 @@
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="./bin:$PATH"
 export PATH="$HOME/Library/Haskell/bin:$PATH"
+export PATH="$HOME/.cabal/bin:$PATH"
+export PATH="./.cabal-sandbox/bin:$PATH"
+export PATH="./bin:$PATH"
 
 eval "$(rbenv init -)"
 
