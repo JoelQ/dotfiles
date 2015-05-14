@@ -10,3 +10,5 @@ export PATH="./bin:$PATH"
 eval "$(rbenv init -)"
 
 envup() { export `cat .env` }
+
+reset_js() { rm -rf node_modules bower_components && npm install && bower install }
