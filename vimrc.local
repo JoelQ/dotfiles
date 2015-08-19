@@ -7,3 +7,6 @@ let g:mustache_abbreviations = 1
 set scrolloff=5
 
 command TIL tabe~/Documents/TIL.md
+
+" Highlight search results
+set hlsearch
