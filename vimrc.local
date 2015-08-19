@@ -8,5 +8,7 @@ set scrolloff=5
 
 command TIL tabe~/Documents/TIL.md
 
+autocmd BufRead,BufNewFile *.es6 setfiletype javascript
+
 " Highlight search results
 set hlsearch
