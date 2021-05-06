@@ -15,3 +15,6 @@ set hlsearch
 
 " run elm format on save
 let g:elm_format_autosave = 1
+
+" markdown-compatible table mode
+let g:table_mode_corner='|'

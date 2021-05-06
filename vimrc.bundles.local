@@ -1,5 +1,6 @@
 Plug 'christoomey/vim-conflicted'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'dhruvasagar/vim-table-mode'
 Plug 'elixir-lang/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'itchyny/lightline.vim'
