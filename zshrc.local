@@ -13,6 +13,9 @@ export PATH="./bin:$PATH"
 # https://twitter.com/garybernhardt/status/1062760973457514496
 export HUSKY_SKIP_INSTALL=true
 
+# Don't auto-update on every homebrew command
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 eval "$(rbenv init -)"
 
 envup() { export `cat .env` }
