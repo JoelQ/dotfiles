@@ -1,0 +1,9 @@
+# horizontal and vertical splits
+unbind |
+bind | split-window -h
+unbind _
+bind _ split-window
+
+# vertical split 70/30
+unbind ^T
+bind ^T split-window -hp 30
