@@ -7,3 +7,6 @@ bind _ split-window
 # vertical split 70/30
 unbind ^T
 bind ^T split-window -hp 30
+
+# enable mouse
+set -g mouse on
