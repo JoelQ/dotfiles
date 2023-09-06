@@ -1,3 +1,4 @@
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'elmcast/elm-vim'
 Plug 'itchyny/lightline.vim'
